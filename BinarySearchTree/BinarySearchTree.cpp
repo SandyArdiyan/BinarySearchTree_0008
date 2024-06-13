@@ -153,4 +153,10 @@ int main()
             cout << endl;
             break;
         }
-      
+        case '4':
+        {
+            obj.postorder(obj.ROOT);
+            cout << endl;
+            break;
+        }
+       
